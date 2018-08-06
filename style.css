@@ -14,7 +14,7 @@ a {
 }
 header {
 	width: 90%;
-	padding: 15px 0;
+	padding: 15px 0
 	margin: 0 auto;
 	text-align: center;
 }
@@ -147,6 +147,20 @@ main {
 }
 .instagram-box:nth-child(6) {
 	background-image: url(img/road.jpg);
+}
+.pagination {
+	text-align: center;
+	margin-top: 50px;
+}
+.pagination p{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background-color: #acabab;
+	line-height: 30px;
+	border-radius: 3px;
+	margin: 0 5px;
 }
 footer {
 	width: 100%;
